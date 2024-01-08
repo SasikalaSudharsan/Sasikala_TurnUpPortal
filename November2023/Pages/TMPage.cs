@@ -112,14 +112,6 @@ namespace November2023.Pages
                                                        
             Assert.That(editCode.Text == "SasikalaSudharsan", "Edit code and expected code do not match");
             Assert.That(editDescription.Text == "SasikalaSudharsanDescription", "Edit description and expected description do not match");
-           /* if (editCode.Text == "SasikalaSudharsan")
-            {
-                Assert.Pass("Existing record has been edited successfully");
-            }
-            else
-            {
-                Assert.Fail("Record has not been edited");
-            }*/
         }
 
         public void Delete_TimeRecord(IWebDriver driver)
